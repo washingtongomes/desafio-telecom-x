@@ -1,8 +1,8 @@
----
-noteId: "a2c60150e72f11f0a37e3f65d2f2a310"
-tags: []
 
----
+#### Referencias Pandas
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.info.html
+https://pandas.pydata.org/docs/reference/api/pandas.unique.html
+
 
 #### Dicionário de dados
 
