@@ -1,4 +1,7 @@
 #  Data Science - Oracle - OneG9 - Alura
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 
 # DESAFIO TELECOM-X 
 # 📊 Análise de Evasão de Clientes (Churn) — TelecomX
@@ -89,6 +92,21 @@ A análise revelou padrões claros relacionados ao churn:
 
 
 ---
-Github:  https://github.com/washingtongomes                                      
-Projeto: https://github.com/washingtongomes/desafio-telecom-x/blob/main/TelecomX_BR.ipynb           
-Autor: Washington 
+     
+
+## Equipe
+
+<div align="center">
+
+**Washington Gomes**  
+
+<a href="https://github.com/washingtongomes">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="100" />
+</a>
+
+<br>
+
+🔗 **GitHub:** https://github.com/washingtongomes   
+🔗 **Projeto:** https://github.com/washingtongomes/desafio-telecom-x/blob/main/TelecomX_BR.ipynb   
+🔗 **Autor:** Autor: Washington 
+</div>
