@@ -1,6 +1,6 @@
+#  Data Science - Oracle - OneG9 - Alura
 
-# DESAFIO TELECOM-X  
-
+# DESAFIO TELECOM-X 
 # 📊 Análise de Evasão de Clientes (Churn) — TelecomX
 
 ---
@@ -87,38 +87,8 @@ A análise revelou padrões claros relacionados ao churn:
 - 📄 **Contratos mensais** apresentam maior churn em comparação a contratos mais longos.
 - 🔧 Clientes sem serviços adicionais tendem a cancelar com maior frequência.
 
-Esses insights mostram que a evasão não ocorre de forma aleatória, mas está fortemente associada a características contratuais, financeiras e de engajamento.
 
 ---
 
-## 5. Recomendações
-
-Com base nos resultados obtidos, recomenda-se:
-
-1. **Foco nos primeiros meses do cliente**
-   - Programas de onboarding
-   - Acompanhamento ativo nos primeiros 3 a 6 meses
-
-2. **Incentivo a contratos de longo prazo**
-   - Ofertas e descontos para migração de contrato mensal para anual
-
-3. **Revisão da política de preços**
-   - Avaliar clientes com custo diário elevado
-   - Oferecer planos personalizados ou benefícios adicionais
-
-4. **Aumento do valor percebido**
-   - Incentivar a adesão a serviços complementares
-   - Destacar benefícios além do preço
-
-5. **Uso futuro de modelos preditivos**
-   - Utilizar as variáveis analisadas para criar modelos de previsão de churn
-   - Antecipar ações antes do cancelamento ocorrer
-
----
-
-## 📌 Considerações Finais
-
-Este estudo demonstra como a análise de dados pode apoiar decisões estratégicas, permitindo à empresa agir de forma proativa na redução da evasão de clientes. A combinação de análises descritivas, visuais e insights de negócio fornece uma base sólida para ações de retenção mais eficazes.
-
-
-https://github.com/washingtongomes/desafio-telecom-x
+Autor: Washington
+Github: https://github.com/washingtongomes/desafio-telecom-x
