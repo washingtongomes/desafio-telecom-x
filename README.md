@@ -90,5 +90,5 @@ A análise revelou padrões claros relacionados ao churn:
 
 ---
 Github:  https://github.com/washingtongomes                                      
-Projeto: https://github.com/washingtongomes/desafio-telecom-x             
+Projeto: https://github.com/washingtongomes/desafio-telecom-x/blob/main/TelecomX_BR.ipynb           
 Autor: Washington 
