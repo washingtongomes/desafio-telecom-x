@@ -1,4 +1,124 @@
 
-# desafio-telecom-x
+# DESAFIO TELECOM-X  
+
+# 📊 Análise de Evasão de Clientes (Churn) — TelecomX
+
+---
+
+## 1. Introdução
+
+A evasão de clientes (Churn) é um dos principais desafios enfrentados por empresas de telecomunicações, pois impacta diretamente a receita, os custos de aquisição de novos clientes e a sustentabilidade do negócio.
+
+O objetivo desta análise é **compreender o comportamento dos clientes que cancelaram o serviço**, identificando padrões e fatores associados à evasão. A partir desses insights, busca-se apoiar decisões estratégicas voltadas à **retenção de clientes**, melhoria de serviços e redução do churn.
+
+---
+
+## 2. Limpeza e Tratamento de Dados
+
+Nesta etapa, os dados foram preparados para garantir consistência, qualidade e confiabilidade das análises.
+
+### 🔹 Importação dos dados
+- Os dados foram importados a partir de um arquivo JSON disponibilizado via link do GitHub.
+- Após o carregamento, os dados foram convertidos em um DataFrame do Pandas para facilitar o processamento.
+
+### 🔹 Tratamento de tipos de dados (dtype)
+- Conversão de colunas numéricas que estavam como texto, como:
+  - `account.Charges.Total`
+- Garantia de tipos corretos:
+  - Variáveis numéricas: `int64` e `float64`
+  - Variáveis categóricas: `object`
+
+### 🔹 Criação de novas variáveis
+- **`contas_diaria`**: criada a partir do faturamento mensal dividido por 30, permitindo uma visão mais granular do custo do cliente.
+- Padronização de valores categóricos, facilitando análises estatísticas e visuais.
+
+### 🔹 Tratamento de valores ausentes
+- Registros com valores nulos em colunas financeiras foram tratados para evitar distorções nas análises.
+
+---
+
+## 3. Análise Exploratória de Dados (EDA)
+
+A Análise Exploratória teve como foco entender **como o churn se distribui** e **quais fatores estão mais associados à evasão**.
+
+### 📌 3.1 Distribuição do Churn
+- Foi analisada a proporção de clientes que:
+  - Permaneceram
+  - Cancelaram o serviço
+- O gráfico de barras horizontal evidenciou que, embora a maioria dos clientes permaneça, uma parcela relevante cancela o serviço, justificando a necessidade de ações preventivas.
+
+---
+
+### 📌 3.2 Churn por Variáveis Categóricas
+Foram analisadas variáveis como:
+- Gênero
+- Tipo de contrato
+- Método de pagamento
+- Serviços adicionais
+
+**Principais observações:**
+- Clientes com **contratos mensais** apresentam maior taxa de evasão.
+- Métodos de pagamento automáticos tendem a estar associados a menor churn.
+- A ausência de serviços adicionais (como suporte técnico e segurança online) está relacionada a maior propensão ao cancelamento.
+
+---
+
+### 📌 3.3 Churn por Variáveis Numéricas
+Foram comparadas as distribuições de clientes que cancelaram e não cancelaram utilizando boxplots.
+
+#### 🔹 Tempo de contrato (tenure)
+- Clientes que cancelaram possuem, em média, **menos tempo de permanência**.
+- Indica que os primeiros meses são críticos para retenção.
+
+#### 🔹 Total gasto
+- Clientes que permanecem tendem a apresentar **maior gasto acumulado**, reflexo do maior tempo de contrato.
+
+#### 🔹 Custo diário
+- Clientes com **custo diário mais elevado** demonstram maior sensibilidade ao cancelamento, sugerindo influência do preço na decisão de evasão.
+
+---
+
+## 4. Conclusões e Insights
+
+A análise revelou padrões claros relacionados ao churn:
+
+- ⏳ Clientes com **menor tempo de contrato** são mais propensos a cancelar.
+- 💰 **Custos mais altos**, especialmente quando percebidos no curto prazo, aumentam o risco de evasão.
+- 📄 **Contratos mensais** apresentam maior churn em comparação a contratos mais longos.
+- 🔧 Clientes sem serviços adicionais tendem a cancelar com maior frequência.
+
+Esses insights mostram que a evasão não ocorre de forma aleatória, mas está fortemente associada a características contratuais, financeiras e de engajamento.
+
+---
+
+## 5. Recomendações
+
+Com base nos resultados obtidos, recomenda-se:
+
+1. **Foco nos primeiros meses do cliente**
+   - Programas de onboarding
+   - Acompanhamento ativo nos primeiros 3 a 6 meses
+
+2. **Incentivo a contratos de longo prazo**
+   - Ofertas e descontos para migração de contrato mensal para anual
+
+3. **Revisão da política de preços**
+   - Avaliar clientes com custo diário elevado
+   - Oferecer planos personalizados ou benefícios adicionais
+
+4. **Aumento do valor percebido**
+   - Incentivar a adesão a serviços complementares
+   - Destacar benefícios além do preço
+
+5. **Uso futuro de modelos preditivos**
+   - Utilizar as variáveis analisadas para criar modelos de previsão de churn
+   - Antecipar ações antes do cancelamento ocorrer
+
+---
+
+## 📌 Considerações Finais
+
+Este estudo demonstra como a análise de dados pode apoiar decisões estratégicas, permitindo à empresa agir de forma proativa na redução da evasão de clientes. A combinação de análises descritivas, visuais e insights de negócio fornece uma base sólida para ações de retenção mais eficazes.
+
 
 https://github.com/washingtongomes/desafio-telecom-x
