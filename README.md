@@ -98,7 +98,7 @@ A análise revelou padrões claros relacionados ao churn:
 
 <div align="center">
 
-**Washington Gomes**  
+🔗 **Autor: Washington Gomes**  
 
 <a href="https://github.com/washingtongomes">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="100" />
@@ -108,5 +108,4 @@ A análise revelou padrões claros relacionados ao churn:
 
 🔗 **GitHub:** https://github.com/washingtongomes   
 🔗 **Projeto:** https://github.com/washingtongomes/desafio-telecom-x/blob/main/TelecomX_BR.ipynb   
-🔗 **Autor:** Autor: Washington 
 </div>
